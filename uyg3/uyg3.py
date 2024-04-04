@@ -62,10 +62,10 @@ np.ones((3, 4)) # 1 lerden olusan matris
 empty = np.empty((3, 4))
 print("empty = ", empty)
 
-a = np.arange(10, 50, 5) # 10,15,20,25,30,35,40,45 * 50 dahil değil
-print(a)
+arange = np.arange(10, 50, 5) # 10,15,20,25,30,35,40,45 * 50 dahil değil
+print(arange)
 
-a2 = np.linspace(10, 50, 20) # arastır
+a2 = np.linspace(10, 50, 20) # 10 ile 50 arasını 20 parçaya bölüyo ve eşit aralıklarla dizi oluşturuyo
 
 print(a2)
 
